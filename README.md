@@ -2,6 +2,8 @@
 
 A color picker and color palette utility
 
+![Screenshot of Multicolor color palette](/assets/screenshot.png)
+
 ## Features
 
 - Manage a palette of multiple colors
