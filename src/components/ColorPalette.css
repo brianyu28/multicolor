@@ -1,0 +1,30 @@
+#palette {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  overflow-x: scroll;
+}
+
+#palette > div {
+  text-align: center;
+  text-wrap: wrap;
+  overflow: hidden;
+  width: 90px;
+  min-width: 90px;
+  margin: 5px;
+}
+
+.palette-button {
+  border: 1px solid black;
+  background: none;
+  border-radius: 10px;
+  font-size: 14px;
+  height: 90px;
+  width: 90px;
+}
+
+.palette-button.new-color {
+  border: 1px dashed black;
+  text-align: center;
+  line-height: 80px;
+}

@@ -1,0 +1,32 @@
+#color-detail {
+  display: flex;
+  gap: 20px;
+}
+
+#color-settings {
+  flex-grow: 1;
+}
+
+#color-name {
+  border-radius: 5px;
+  border: none;
+  width: calc(100% - 10px);
+  font-size: 18px;
+  padding: 0px 4px;
+  height: 40px;
+}
+
+#color-hex {
+  margin: 8px 0px;
+  width: calc(100% - 10px);
+  font-size: 16px;
+}
+
+td {
+  font-size: 18px;
+  padding: 1px 4px;
+}
+
+.color-input {
+  font-size: 16px;
+}
